@@ -52,7 +52,7 @@ hyperparameters = {
     
     
     'OfflineAntRun-v0': {
-        'lr': 3e-4, 'eta': 5.0, 'kp': 0.01, 'ki': 0.001, 'kd': 0.005, 
+        'lr': 3e-4, 'eta': 0.1, 'kp': 0.01, 'ki': 0.001, 'kd': 0.005,
         'cost_limit': 10.0, 'cost_threshold': 10.0, 'max_q_backup': False, 'gn': 1.0,
         'reward_tune': 'no', 'eval_freq': 50, 'num_epochs': 1000, 'top_k': 1
     },
@@ -64,7 +64,7 @@ hyperparameters = {
     },
     
     'OfflineCarCircle-v0': {
-        'lr': 3e-4, 'eta': 3.0, 'kp': 0.01, 'ki': 0.001, 'kd': 0.005, 
+        'lr': 3e-4, 'eta': 2.0, 'kp': 0.01, 'ki': 0.001, 'kd': 0.005,
         'cost_limit': 10.0, 'cost_threshold': 10.0, 'max_q_backup': False, 'gn': 1.0,
         'reward_tune': 'no', 'eval_freq': 50, 'num_epochs': 1000, 'top_k': 1
     },
@@ -105,7 +105,7 @@ hyperparameters = {
     },
     'OfflineHopperVelocityGymnasium-v1': {
         'lr': 3e-4, 'eta': 1.0, 'kp': 0.01, 'ki': 0.001, 'kd': 0.005,
-        'cost_limit': 10.0, 'cost_threshold': 10.0, 'max_q_backup': False, 'gn': 1.0,
+        'cost_limit': 20.0, 'cost_threshold': 20.0, 'max_q_backup': False, 'gn': 1.0,
         'reward_tune': 'no', 'eval_freq': 50, 'num_epochs': 1000, 'top_k': 1
     },
     'OfflineSwimmerVelocityGymnasium-v1': {
