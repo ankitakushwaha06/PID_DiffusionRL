@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+conda-env/
+
+# Generated experiment artifacts
+results/
+toy_imgs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.npy
+
+# Logs and editors
+*.log
+.DS_Store
+.vscode/
+.idea/
