@@ -238,6 +238,20 @@ PID-DiffRL-GitHub/
 └── requirements.txt        # reference dependencies
 ```
 
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{kushwaha2026piddiffrl,
+  title={{PID}-Diff{RL}: Safe Offline Reinforcement Learning as Noisy Delayed Feedback Control},
+  author={Ankita Kushwaha and Preeti and Kiran Ravish and Pawan Kumar and Anuj Mahajan},
+  journal={Accepted at Transactions on Machine Learning Research},
+  year={2026},
+  url={https://openreview.net/forum?id=Z7sFdFmULL}
+}
+```
+
 ## Acknowledgements
 
 This codebase builds on
